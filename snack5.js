@@ -13,3 +13,15 @@ function stampaOgniSecondo(messaggio) {
 
 const intervallo = stampaOgniSecondo('Ho finito il tempo')
 intervallo()
+
+// studio aggiuntivo per capire meglio e sperimentare 
+// function stampaOgniSecondo(callback, tempo) {
+//     return () => {
+//         setInterval(callback, tempo)
+//     }
+// }
+// const intervallo = stampaOgniSecondo(() => {
+//     console.log('ho finito');
+
+// }, 1000)
+// intervallo()
