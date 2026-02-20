@@ -10,3 +10,4 @@ function creaTimer(tempo) {
 }
 const timer1s = creaTimer(1000)
 timer1s()
+
